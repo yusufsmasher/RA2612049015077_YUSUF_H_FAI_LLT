@@ -53,6 +53,13 @@ table to view that scenario's ordered road-node IDs.
 The selected route details include a consecutive-deduplicated street
 itinerary and the complete ordered node-ID sequence.
 
+## Deploy to Streamlit Community Cloud
+
+Create the app from this public repository and set **Main file path** to
+`app.py` (not `main.py`, which is the command-line entry point). Keep the app's
+working directory at the repository root so the graph and CSV data files are
+available. Streamlit Cloud installs the dependencies from `requirements.txt`.
+
 To try a different pair of coordinates, provide latitude and longitude:
 
 ```powershell
